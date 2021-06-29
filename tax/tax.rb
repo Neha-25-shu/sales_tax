@@ -82,17 +82,17 @@ end
 
 o1 = Order.new
 
-# o1.add("chocolate bar",1,0.85, o1.object_id , true, false)
-# o1.add("music CD",1,14.99, o1.object_id , false, false)
-# o1.add("book",1,12.49, o1.object_id ,true , false )
+o1.add("chocolate bar",1,0.85, o1.object_id , true, false)
+o1.add("music CD",1,14.99, o1.object_id , false, false)
+o1.add("book",1,12.49, o1.object_id ,true , false )
 
 # o1.add("imported bottle of perfume at",1,47.50, o1.object_id , false,true)
 # o1.add("imported box of chocolates at",1,10.00, o1.object_id , true, true)
 
-o1.add("box of imported chocolates at",1,11.25, o1.object_id , true, true)
-o1.add("packet of headache pills at",1,9.75, o1.object_id , true, false)
-o1.add("bottle of perfume at",1,18.99, o1.object_id , false, false)
-o1.add("imported bottle of perfume at",1,27.99, o1.object_id , false,true)
+# o1.add("box of imported chocolates at",1,11.25, o1.object_id , true, true)
+# o1.add("packet of headache pills at",1,9.75, o1.object_id , true, false)
+# o1.add("bottle of perfume at",1,18.99, o1.object_id , false, false)
+# o1.add("imported bottle of perfume at",1,27.99, o1.object_id , false,true)
 
 
 lists = o1.products
